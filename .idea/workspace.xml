@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="65de431a-d1eb-44c6-8fc0-1f3b81c1427d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DbExport/fr/export/db/Database$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DbExport/fr/export/db/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DbExport/fr/export/db/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DbExport/fr/export/db/Exporter$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DbExport/fr/export/db/Exporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DbExport/fr/export/db/Exporter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DbExport/fr/export/db/Launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DbExport/fr/export/db/Launcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/export/db/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/export/db/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/export/db/Exporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/export/db/Exporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/export/db/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/export/db/Launcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +34,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/ExportJava-Jar-Zip" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -81,7 +73,7 @@
       <updated>1593676958325</updated>
       <workItem from="1593676960629" duration="9812000" />
       <workItem from="1593764932496" duration="10630000" />
-      <workItem from="1594022187482" duration="7109000" />
+      <workItem from="1594022187482" duration="7557000" />
     </task>
     <task id="LOCAL-00001" summary="test debug">
       <created>1594025312447</created>
@@ -90,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594025312448</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Appli V1.0">
+      <created>1594030330427</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594030330427</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,25 +97,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test debug" />
-    <option name="LAST_COMMIT_MESSAGE" value="test debug" />
+    <MESSAGE value="Appli V1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Appli V1.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Inspections" timestamp="1593689328167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1593689328167" />
-    <state x="709" y="357" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1593766467223">
+    <state x="709" y="357" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1594030546353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="709" y="357" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593766467223" />
+    <state x="709" y="357" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594030546353" />
+    <state x="711" y="372" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1594030709279">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="711" y="372" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594030709279" />
     <state x="575" y="113" key="CommitChangelistDialog2" timestamp="1594030347593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="575" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594030347593" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1593763763229">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594030575252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593763763229" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594030575252" />
     <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1594030356125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -149,10 +153,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594029227109" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1593763769277">
+    <state x="461" y="163" key="SettingsEditor" timestamp="1594030760041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593763769277" />
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594030760041" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1594025319059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
