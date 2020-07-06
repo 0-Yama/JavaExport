@@ -36,10 +36,13 @@ public class Exporter {
         put("ulm"       , new Object[] {"Id","Disponible","Loueur","Stationement","durée Location","Reservoir","Consomation"});
     }};
     private Database database;
-    private XSSFWorkbook document = new XSSFWorkbook();;
+
+    private XSSFWorkbook document = new XSSFWorkbook();
+
     public Exporter(Database db){
         database = db;
     }
+
     public void createDocument(){
         try (FileOutputStream outputStream = new FileOutputStream("export.xlsx")) {
             document.write(outputStream);
@@ -64,15 +67,11 @@ public class Exporter {
                 cell.setCellValue((Integer) field);
             }
         }
-        database.query("SELECT * FROM" + name);
+        database.query("SELECT * FROM " + name);
         while(true){
             for (Object field : database.fetch(name)) {
                 Cell cell = row.createCell(++columnCount);
-                if (field instanceof String) {
-                    cell.setCellValue((String) field);
-                } else if (field instanceof Integer) {
-                    cell.setCellValue((Integer) field);
-                }
+                cell.setCellValue((String) field);
             }
             try {
                 database.next();
