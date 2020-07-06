@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DbExport:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DbExport_jar</output-path>
+    <root id="archive" name="DbExport.jar">
+      <element id="module-output" name="DbExport" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/commons-compress-1.20/commons-compress-1.20-tests.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/commons-compress-1.20/commons-compress-1.20.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/mysql-connector-java-8.0.19.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/xmlbeans-3.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/commons-collections4-4.4/commons-collections4-4.4-tests.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/commons-collections4-4.4/commons-collections4-4.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/dom4j-1.6.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/poi-4.1.2/poi-4.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/poi-4.1.2/poi-examples-4.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/poi-4.1.2/poi-excelant-4.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/poi-4.1.2/poi-ooxml-4.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/poi-4.1.2/poi-ooxml-schemas-4.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/poi-4.1.2/poi-scratchpad-4.1.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
