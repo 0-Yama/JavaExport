@@ -6,27 +6,12 @@ public class Database {
 
     Connection db;
     ResultSet result;
-    private HashMap<String, Object[]> table= new HashMap<String, Object[]>(){{
-        put("avion"     , new Object[] {"id","model","groupe","type","place","disponibilité", "stationement",
-                "loueur","image","durée location","réservoir","consomation"});
+    private HashMap<String, Object[]> table;
 
-        put("facture"   , new Object[] {"n° Facture","nom membre","prénom membre","n° Tel","n° Service","Prix","Adresse facturation"});
 
-        put("hangar"    , new Object[] {"Id","Etat","Dimension","Capacité"});
-
-        put("membre"    , new Object[] {"Id","Mail","Mot de passe","Prénom","Nom","Age","Ville","Code Postal","Client","Abonées"});
-
-        put("historique", new Object[] {"Id","Id Service","Nom Service","Prix Service","Horraire début","Horraire fin","Type","Date"});
-
-        put("personel"  , new Object[] {"Id","Mail","Nom","Prénom","Age","Adresse","Code Postal","Ville","Mot de Passe","Poste"});
-
-        put("service"   , new Object[] {"Id","Nom","Prix","Horraire début","Horraire fin","Type","Date","Accompagnant"});
-
-        put("ulm"       , new Object[] {"Id","Disponible","Loueur","Stationement","durée Location","Reservoir","Consomation"});
-    }};
-
-    public Database(String host, String dbName, String port, String user, String password){
+    public Database(String host, String dbName, String port, String user, String password, HashMap<String, Object[]> table){
         try {
+            this.table = table;
             // The newInstance() call is a work around for some
             // broken Java implementations
             Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
@@ -66,11 +51,20 @@ public class Database {
         }
         System.out.println(returnValue.toString());
         System.out.println(returnValue.length);
-        return returnValue;
-    }
-    public void next() throws Exception{
         try{
             result.next();
-        }catch (Exception e){throw new Exception();}
+        }catch(Exception e){}
+        return returnValue;
     }
+    public int getRows(String table){
+        try{
+            Statement SQLquery = db.createStatement();
+            result             = SQLquery.executeQuery("SELECt count(id) FROM " + table);
+            result.first();
+            return result.getInt(1);
+        }catch(Exception e){
+            return -1;
+        }
+    }
+
 }
