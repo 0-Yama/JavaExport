@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65de431a-d1eb-44c6-8fc0-1f3b81c1427d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/DbExport_jar.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <updated>1593676958325</updated>
       <workItem from="1593676960629" duration="9812000" />
       <workItem from="1593764932496" duration="10630000" />
-      <workItem from="1594022187482" duration="7557000" />
+      <workItem from="1594022187482" duration="7681000" />
     </task>
     <task id="LOCAL-00001" summary="test debug">
       <created>1594025312447</created>
@@ -89,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594030330427</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Appli V1.0">
+      <created>1594030773696</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594030773696</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,14 +120,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="711" y="372" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594030709279" />
-    <state x="575" y="113" key="CommitChangelistDialog2" timestamp="1594030347593">
+    <state x="575" y="113" key="CommitChangelistDialog2" timestamp="1594030772754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="575" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594030347593" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594030575252">
+    <state x="575" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594030772754" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594030876159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594030575252" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594030876159" />
     <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1594030356125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -153,14 +160,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594029227109" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1594030760041">
+    <state x="461" y="163" key="SettingsEditor" timestamp="1594030884668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594030760041" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1594025319059">
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594030884668" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1594030776903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594025319059" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594030776903" />
     <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1593764987310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
